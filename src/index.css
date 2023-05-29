@@ -1,0 +1,34 @@
+@font-face {
+  font-family: poppins-light;
+  src: url('src/assets/fonts/Poppins-Light.ttf');
+}
+
+* {
+  font-family: 'poppins-light', sans-serif;
+  color: #F2EFE9;
+}
+
+body {
+  height: 100%;
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.sectionTitle {
+  margin: 0;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 3px;
+}
+
+.music {
+  height: 900px;
+  background-color:rgb(90, 201, 201);
+}
+
+/*
+.music > * {
+  color: #101010;
+}
+*/

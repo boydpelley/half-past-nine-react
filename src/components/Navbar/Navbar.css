@@ -1,0 +1,58 @@
+.nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: puddles;
+    src: url("src/assets/fonts/RubikPuddles-Regular.ttf");
+}
+
+@font-face {
+    font-family: modak;
+    src: url("src/assets/fonts/Modak-Regular.ttf");
+}
+
+@font-face {
+    font-family: spray-paint;
+    src: url("src/assets/fonts/RubikSprayPaint-Regular.ttf");
+}
+
+.topName {
+    font-family: 'modak', sans-serif;
+    font-weight: normal;
+    color: #F2EFE9;
+    padding-left: 5%;
+    margin: auto 0px;
+    font-size: 4em;
+}
+
+.navList {
+    width: 60%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.navItem > a {
+    font-size: medium;
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F2EFE9;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.4em;
+}

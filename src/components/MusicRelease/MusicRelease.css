@@ -1,0 +1,33 @@
+.albumCover {
+    width: 300px;
+    box-shadow: 2px 2px 12px -3px #232323;
+}
+
+.albumTitle {
+    letter-spacing: 1.5px;
+}
+
+.musicSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 15px 0;
+}
+
+.titleAndButton {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlistenableButton {
+    background-color: #f6e952;
+}
+
+.listenableButton { 
+    background-color: #f6e952;
+}
