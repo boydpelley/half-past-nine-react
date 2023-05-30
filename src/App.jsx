@@ -15,9 +15,10 @@ function App() {
           }}
           isReleased={false}
         ></MusicRelease>
+        <div className="epAnnouncement">Our debut release, deja vu to be released soon</div>
       </div>
       <div className="media">
-      
+          <h1 className="sectionTitle">media</h1>
       </div>
       <div className="merch">
       

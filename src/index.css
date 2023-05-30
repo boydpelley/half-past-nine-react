@@ -18,17 +18,27 @@ body {
 .sectionTitle {
   margin: 0;
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 0;
   letter-spacing: 3px;
 }
 
 .music {
-  height: 900px;
+  height: 700px;
   background-color:rgb(90, 201, 201);
 }
 
-/*
-.music > * {
+.epAnnouncement { 
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.media {
+  height: 700px;
+  background-color: rgb(255, 250, 103);
+}
+
+.media > * {
   color: #101010;
 }
-*/
+

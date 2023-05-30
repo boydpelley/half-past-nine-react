@@ -1,5 +1,5 @@
 .albumCover {
-    width: 300px;
+    width: 450px;
     box-shadow: 2px 2px 12px -3px #232323;
 }
 
@@ -25,9 +25,21 @@
 }
 
 .unlistenableButton {
-    background-color: #f6e952;
+    background-color: #98903b;
+    padding: 8px 22px;
+    border: none;
+    box-shadow: 2px 2px 12px -3px #44401b;
+    color: #333333;
+    letter-spacing: 0.3em;
+    font-weight: bolder;
 }
 
 .listenableButton { 
-    background-color: #f6e952;
+    background-color: #ebde4e;
+    padding: 8px 42px;
+    border: none;
+    box-shadow: 2px 2px 12px -3px #44401b;
+    color: #333333;
+    letter-spacing: 0.3em;
+    font-weight: bolder;
 }
