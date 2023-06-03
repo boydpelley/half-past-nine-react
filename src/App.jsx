@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import MusicRelease from "./components/MusicRelease";
+import Show from "./components/Show";
 
 function App() {
   return (
@@ -28,6 +29,12 @@ function App() {
       <div id="live">
           <h1 className="sectionTitle">live</h1>
           <h2>upcoming shows</h2>
+          <Show 
+            date="10 june 2023"
+            venue="carport"
+            location="boyds"
+            isPaid={false}
+          />
       </div>
       <div id="contact">
       
