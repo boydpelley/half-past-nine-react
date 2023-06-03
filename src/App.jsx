@@ -33,7 +33,8 @@ function App() {
             date="10 june 2023"
             venue="carport"
             location="boyds"
-            isPaid={false}
+            isPaid={true}
+            link=""
           />
       </div>
       <div id="contact">
