@@ -26,9 +26,11 @@ function Show( props ) {
 
     return (
         <div className="performanceInfo">
-            <h3 className="dateShow">{props.date}</h3>
-            <h3 className="venue">{props.venue}</h3>
-            <h3 className="location">{props.location}</h3>
+            <div className="dateLocVenueWrapper">
+                <h3 className="dateShow">{props.date}</h3>
+                <h3 className="venue">{props.venue}</h3>
+                <h3 className="location">{props.location}</h3>
+            </div>
             <button onClick={() => setButtonPopup(true)} className="popUpButton">Tickets</button>
             <PopUp trigger={buttonPopUp} setTrigger={setButtonPopup} >
                 <PopUpDesc isPaid={props.isPaid} link={props.link} />

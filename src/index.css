@@ -1,6 +1,6 @@
 @font-face {
   font-family: poppins-light;
-  src: url('src/assets/fonts/Poppins-Light.ttf');
+  src: url('../src/assets/fonts/Poppins-Light.ttf');
 }
 
 * {
@@ -64,4 +64,18 @@ body {
 #live {
   background-color: #48865e;
   height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.showsWrapper {
+  width: 100%;
+  max-width: 860px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
 }

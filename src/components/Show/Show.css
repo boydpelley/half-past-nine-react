@@ -25,3 +25,44 @@
     right: 15px;
     top: 15px;
 }
+
+.performanceInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding: 10px 5px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.dateLocVenueWrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.dateShow {
+    padding-right: 10px;
+}
+
+.venue {
+    margin-right: auto;
+    font-weight: normal;
+}
+
+.location {
+    margin: auto 15px auto 5px;
+    font-weight: normal;
+}
+
+.popUpButton {
+    padding: 8px 22px;
+    border: none;
+    box-shadow: 2px 2px 12px -3px #44401b;
+    color: #333333;
+    letter-spacing: 0.3em;
+    font-weight: bolder;
+}

@@ -29,13 +29,23 @@ function App() {
       <div id="live">
           <h1 className="sectionTitle">live</h1>
           <h2>upcoming shows</h2>
-          <Show 
-            date="10 june 2023"
-            venue="carport"
-            location="boyds"
-            isPaid={true}
-            link=""
-          />
+          <div className="showsWrapper">
+            <Show
+              date="10 june 2023"
+              venue="carport"
+              location="boyds"
+              isPaid={false}
+              link=""
+            />
+            <Show
+              date="11 june 2023"
+              venue="Highland Arts Theatre"
+              location="Sydney, NS"
+              isPaid={true}
+              link=""
+            />
+          </div>
+          
       </div>
       <div id="contact">
       
