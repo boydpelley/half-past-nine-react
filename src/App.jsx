@@ -11,7 +11,7 @@ function App() {
         <MusicRelease
           title="deja vu - EP"
           img={{
-            src: "src/assets/images/DejaVu.png",
+            src: "../assets/images/DejaVu.png",
             alt: "deja vu cover"
           }}
           isReleased={false}
