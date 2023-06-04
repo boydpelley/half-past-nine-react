@@ -79,3 +79,37 @@ body {
   flex-wrap: wrap;
   border-top: 1px solid rgba(255, 255, 255, 0.6);
 }
+
+
+#contact {
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#contact p {
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: large;
+}
+
+#instaLink {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#instagramLogo {
+  padding-top: 10px;
+  max-width: 5%;
+}
+
+footer {
+  background-color: #333333;
+  text-align: center;
+  padding-bottom: 20px;
+}
