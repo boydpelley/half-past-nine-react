@@ -18,12 +18,25 @@
     max-width: 550px;
     padding: 30px;
     background-color: #333333;
+    border-radius: 4px;
 }
 
 .popUp .closeButton {
     position: absolute;
+    padding: 5px;
     right: 15px;
     top: 15px;
+    color:#333333;
+}
+
+.popUp .closeButton:hover {
+    cursor: pointer;
+    background-color: #d4d4d4;
+}
+
+.popUp .closeButton:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 .performanceInfo {
@@ -34,6 +47,12 @@
     padding: 10px 5px;
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+
+    transition: background-color .5s;
+}
+
+.performanceInfo:hover {
+    background-color: #457d58;
 }
 
 .dateLocVenueWrapper {
@@ -65,4 +84,26 @@
     color: #333333;
     letter-spacing: 0.3em;
     font-weight: bolder;
+
+    transition: background-color 0.5s;
+}
+
+.popUpButton:hover {
+    cursor: pointer;
+    background-color: #d4d4d4;
+}
+
+.popUpButton:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+@keyframes drop {
+    0%{ opacity: 0; transform: translateY(-50px); }
+    /*80%{ transform: translateY(30px); }*/
+    100%{ opacity: 1; transform: translateY(0px); }
+}
+
+.animateDown {
+    animation: drop 0.5s ease forwards;
 }

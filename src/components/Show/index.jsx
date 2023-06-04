@@ -22,8 +22,8 @@ function PopUpDesc({ isPaid, link }) {
 }
 
 function Show( props ) {
-    const [buttonPopUp, setButtonPopup] = useState(false);
-
+    const [buttonPopUp, setButtonPopUp] = useState(false);
+    
     return (
         <div className="performanceInfo">
             <div className="dateLocVenueWrapper">
@@ -31,8 +31,8 @@ function Show( props ) {
                 <h3 className="venue">{props.venue}</h3>
                 <h3 className="location">{props.location}</h3>
             </div>
-            <button onClick={() => setButtonPopup(true)} className="popUpButton">Tickets</button>
-            <PopUp trigger={buttonPopUp} setTrigger={setButtonPopup} >
+            <button onClick={() => setButtonPopUp(true)} className="popUpButton">Tickets</button>
+            <PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp} >
                 <PopUpDesc isPaid={props.isPaid} link={props.link} />
             </PopUp>
         </div>
