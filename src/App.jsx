@@ -20,7 +20,7 @@ function App() {
       </div>
       <div id="media">
         <h1 className="sectionTitle">media</h1>
-        <img href="../src/assets/images/collageHpn.jpg" alt="collage of the band" className="collageBandPic"></img>
+        <img src="../src/assets/images/collageHpn.jpg" alt="collage of the band" className="collageBandPic"></img>
       </div>
       <div id="merch">
         <h1 className="sectionTitle">merch</h1>
