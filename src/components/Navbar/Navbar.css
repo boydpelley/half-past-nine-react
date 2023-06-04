@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: puddles;
-    src: url("src/assets/fonts/RubikPuddles-Regular.ttf");
+    src: url("../../assets/fonts/RubikPuddles-Regular.ttf");
 }
 
 @font-face {
     font-family: modak;
-    src: url("src/assets/fonts/Modak-Regular.ttf");
+    src: url("../../assets/fonts/Modak-Regular.ttf");
 }
 
 @font-face {
     font-family: spray-paint;
-    src: url("src/assets/fonts/RubikSprayPaint-Regular.ttf");
+    src: url("../../assets/fonts/RubikSprayPaint-Regular.ttf");
 }
 
 .topName {
