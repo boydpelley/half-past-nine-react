@@ -3,6 +3,12 @@
     box-shadow: 2px 2px 12px -3px #232323;
 }
 
+@media screen and (max-width: 950px) {
+    .albumCover {
+        width: 80%;
+    }
+}
+
 .albumTitle {
     letter-spacing: 1.5px;
 }

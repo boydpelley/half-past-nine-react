@@ -16,10 +16,13 @@
     width: 100%;
 }
 
-.bottomGradient {
-    position: absolute;
-    height: 80px;
-    background-image: linear-gradient(transparent, rgb(19, 19, 19));
-    width: 100%;
-    bottom: 0;
+@media screen and (min-width: 950px) {
+
+    .bottomGradient {
+        position: absolute;
+        height: 80px;
+        background-image: linear-gradient(transparent, rgb(19, 19, 19));
+        width: 100%;
+        bottom: 0;
+    }
 }

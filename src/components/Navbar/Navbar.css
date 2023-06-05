@@ -32,27 +32,102 @@
     font-size: 4em;
 }
 
-.navList {
-    width: 60%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-right: 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
+@media screen and (min-width: 960px) {
+    
+    .navList {
+        width: 60%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-right: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+    }
+
+    .navItem > a {
+        font-size: medium;
+        float: left;
+        width: 20%;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: #F2EFE9;
+        padding: 5px 0;
+        margin: 10px 0;
+        font-size: 1.4em;
+    }
+
+    .menuIcon {
+        z-index: 5;
+        display: flex;
+        display: none;
+    }
 }
 
-.navItem > a {
-    font-size: medium;
-    float: left;
-    width: 20%;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    color: #F2EFE9;
-    padding: 5px 0;
-    margin: 10px 0;
-    font-size: 1.4em;
+.hamburger {
+    background-image: url("../../assets/images/hamburger.png");
+    width:50px;
+    height: 50px;
+    background-size: contain;
+    display: flex;
+    transform: translate(-10px, 10px);
+}
+
+.xClose {
+    background-image: url("../../assets/images/xClose.png");
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    display: flex;
+    transform: translate(-10px, 10px);
+}
+
+@media screen and (max-width: 950px) {
+    .navItem {
+        position: relative;
+    }
+
+    .navList {
+        padding: none;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        position: absolute;
+        top: -350%;
+        align-items: center;
+        list-style-type: none;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .clicked {
+        top: 60px;
+        left: 0;
+        right: 0;
+        transition: all 0.5s ease;
+    }
+
+    .navItem > a {
+        font-size: medium;
+        float: left;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: #F2EFE9;
+        margin: 5px 0;
+        font-size: 1.4em;
+    }
+
+    .menuIcon {
+        display:block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        z-index: 10;
+    }
 }
