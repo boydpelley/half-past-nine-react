@@ -2,6 +2,10 @@ import Hero from "./components/Hero";
 import MusicRelease from "./components/MusicRelease";
 import Show from "./components/Show";
 
+import cover from "./assets/images/DejaVu.png";
+import collage from "./assets/images/collageHpn.jpg";
+import insta from "./assets/images/Instagram_Glyph_White.png";
+
 function App() {
   return (
     <>
@@ -11,7 +15,7 @@ function App() {
         <MusicRelease
           title="deja vu - EP"
           img={{
-            src: "/src/assets/images/DejaVu.png",
+            src: {cover},
             alt: "deja vu cover"
           }}
           isReleased={false}
@@ -20,7 +24,7 @@ function App() {
       </div>
       <div id="media">
         <h1 className="sectionTitle">media</h1>
-        <img src="/src/assets/images/collageHpn.jpg" alt="collage of the band" className="collageBandPic"></img>
+        <img src={collage} alt="collage of the band" className="collageBandPic"></img>
       </div>
       <div id="merch">
         <h1 className="sectionTitle">merch</h1>
@@ -49,7 +53,7 @@ function App() {
       <div id="contact">
         <h1 className="sectionTitle">contact</h1>
         <p>need to contact us?<br></br> send us an <a href="mailto:boyd@pelley.ca">email</a>! or a <a href="https://www.instagram.com/halfpastnineband/">dm</a>!</p>
-        <a href="https://www.instagram.com/halfpastnineband/" id="instaLink"><img src="/src/assets/images/Instagram_Glyph_White.png" alt="instagram logo" id="instagramLogo"></img></a>
+        <a href="https://www.instagram.com/halfpastnineband/" id="instaLink"><img src={insta} alt="instagram logo" id="instagramLogo"></img></a>
       </div>
       <footer>
         designed by <a href="https://www.instagram.com/boyd_pelley/">boyd pelley</a>
