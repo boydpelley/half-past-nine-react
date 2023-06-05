@@ -2,9 +2,9 @@ import Hero from "./components/Hero";
 import MusicRelease from "./components/MusicRelease";
 import Show from "./components/Show";
 
-import cover from "./assets/images/DejaVu.png";
-import collage from "./assets/images/collageHpn.jpg";
-import insta from "./assets/images/Instagram_Glyph_White.png";
+import album from "../src/assets/images/DejaVu.png";
+import collage from "../src/assets/images/collageHpn.jpg";
+import insta from "../src/assets/images/Instagram_Glyph_White.png";
 
 function App() {
   return (
@@ -14,12 +14,10 @@ function App() {
         <h1 className="sectionTitle">music</h1>
         <MusicRelease
           title="deja vu - EP"
-          img={{
-            src: {cover},
-            alt: "deja vu cover"
-          }}
+          src={album}
+          alt="deja vu cover"
           isReleased={false}
-        ></MusicRelease>
+        />
         <div className="epAnnouncement">Our debut release, deja vu to be released soon</div>
       </div>
       <div id="media">
