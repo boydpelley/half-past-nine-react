@@ -66,6 +66,10 @@
     }
 }
 
+.navItem > a:hover, .navItem > a:active {
+    color: #c4c3c2;
+}
+
 .hamburger {
     background-image: url("../../assets/images/hamburger.png");
     width:50px;

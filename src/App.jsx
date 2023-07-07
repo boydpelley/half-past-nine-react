@@ -5,6 +5,8 @@ import Show from "./components/Show";
 import album from "../src/assets/images/DejaVu.png";
 import collage from "../src/assets/images/collageHpn.jpg";
 import insta from "../src/assets/images/Instagram_Glyph_White.png";
+import garage from "../src/assets/images/four-garage.jpg";
+import group from "../src/assets/images/big-group.jpg";
 
 function App() {
   return (
@@ -16,13 +18,17 @@ function App() {
           title="deja vu - EP"
           src={album}
           alt="deja vu cover"
-          isReleased={false}
+          isReleased={true}
         />
-        <div className="epAnnouncement">Our debut release, deja vu to be released soon</div>
+        <div className="epAnnouncement">Our debut release, deja vu released on all platforms!</div>
       </div>
       <div id="media">
         <h1 className="sectionTitle">media</h1>
-        <img src={collage} alt="collage of the band" className="collageBandPic"></img>
+        <img src={collage} alt="collage of the band" className="collageBandPic" />
+        <div className="bottomMediaImageWrapper">
+          <img src={garage} alt="the band after the garage show" className="garagePlayers" />
+          <img src={group} alt="the boys afer the show" className="groupOfGents" />
+        </div>
       </div>
       <div id="merch">
         <h1 className="sectionTitle">merch</h1>
@@ -32,7 +38,13 @@ function App() {
         <h1 className="sectionTitle">live</h1>
         <h2>upcoming shows</h2>
         <div className="showsWrapper">
-          <h3>sorry! no shows at the moment but check back soon!</h3>
+          <Show 
+            date="July 4, 2023"
+            venue="the garage"
+            location="Point Edward"
+            isPaid={false}
+            link=""
+          />
         </div> 
       </div>
       <div id="contact">

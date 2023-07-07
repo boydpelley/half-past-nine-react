@@ -48,4 +48,16 @@
     color: #333333;
     letter-spacing: 0.3em;
     font-weight: bolder;
+
+    transition: background-color .5s;
+}
+
+.listenableButton:hover {
+    cursor: pointer;
+    background-color: #c2b740;
+}
+
+.listanableButton:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
